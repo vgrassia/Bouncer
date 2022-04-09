@@ -11,7 +11,7 @@ private typealias DiskWriteError = String
 final class FilterStoreFile: FilterStore {
     
     static let filterListFile = "filters.json"
-    static let groupContainer = "group.com.banshai.bouncer"
+    static let groupContainer = "group.com.zionark.bouncer"
     static let filterListFileV1 = "wordlist.filter"
     
     var filters: [Filter] = []

@@ -16,8 +16,7 @@ struct BouncerApp: App {
                       reducer: appReducer,
                       middlewares: [
                         settingsMiddleware(appSettings: AppSettingsDefaults(userDefaults: UserDefaults.standard)),
-                        filterMiddleware(filterStore: FilterStoreFile()),
-                        reviewMiddleware(reviewService: ReviewServiceStoreKit(appSettings: AppSettingsDefaults(userDefaults: UserDefaults.standard)))                        
+                        filterMiddleware(filterStore: FilterStoreFile())
                       ]
     )
 

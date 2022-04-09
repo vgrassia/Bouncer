@@ -22,9 +22,6 @@
 		D6233A7F24A651A200B37A6A /* SMSOfflineFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6233A7D24A651A200B37A6A /* SMSOfflineFilter.swift */; };
 		D6233A8124A6538D00B37A6A /* SMSOfflineFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6233A7D24A651A200B37A6A /* SMSOfflineFilter.swift */; };
 		D6233A8324A653F200B37A6A /* FilterStoreFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6529FC824A54ADE009AE3FF /* FilterStoreFile.swift */; };
-		D62B331B24BAB16C002DFB81 /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62B331A24BAB16C002DFB81 /* ReviewService.swift */; };
-		D62B331D24BAB18E002DFB81 /* RatingServiceDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62B331C24BAB18E002DFB81 /* RatingServiceDefault.swift */; };
-		D63B545F24C75231005D4DAA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B545E24C75231005D4DAA /* StoreKit.framework */; };
 		D644F1EC24E59FBE006C5EE2 /* FilterDetailContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D644F1EB24E59FBE006C5EE2 /* FilterDetailContainerView.swift */; };
 		D644F1EE24E59FC9006C5EE2 /* FilterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D644F1ED24E59FC9006C5EE2 /* FilterDetailView.swift */; };
 		D6529F7324A41371009AE3FF /* BouncerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6529F7224A41371009AE3FF /* BouncerApp.swift */; };
@@ -54,7 +51,6 @@
 		D6EA9A8424AD2244000135E7 /* FilterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA9A8324AD2244000135E7 /* FilterStore.swift */; };
 		D6EA9A8524AD2319000135E7 /* FilterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA9A8324AD2244000135E7 /* FilterStore.swift */; };
 		D6F0621124EC69F800F47BA2 /* FilterStoreFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0621024EC69F800F47BA2 /* FilterStoreFileTests.swift */; };
-		D6F14E8824E8A1780029A0DF /* ReviewMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F14E8724E8A1780029A0DF /* ReviewMiddleware.swift */; };
 		D6FC672924E49B2B0083C9FA /* FilterListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC672824E49B2B0083C9FA /* FilterListContainerView.swift */; };
 		D6FC672E24E4ACCF0083C9FA /* FilterMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC672D24E4ACCF0083C9FA /* FilterMiddleware.swift */; };
 /* End PBXBuildFile section */
@@ -114,9 +110,6 @@
 		D6233A7D24A651A200B37A6A /* SMSOfflineFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSOfflineFilter.swift; sourceTree = "<group>"; };
 		D6233A8524A6553C00B37A6A /* Bouncer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bouncer.entitlements; sourceTree = "<group>"; };
 		D6233A8624A655BF00B37A6A /* SMSFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMSFilter.entitlements; sourceTree = "<group>"; };
-		D62B331A24BAB16C002DFB81 /* ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewService.swift; sourceTree = "<group>"; };
-		D62B331C24BAB18E002DFB81 /* RatingServiceDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingServiceDefault.swift; sourceTree = "<group>"; };
-		D63B545E24C75231005D4DAA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D644F1EB24E59FBE006C5EE2 /* FilterDetailContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDetailContainerView.swift; sourceTree = "<group>"; };
 		D644F1ED24E59FC9006C5EE2 /* FilterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDetailView.swift; sourceTree = "<group>"; };
 		D6529F6F24A41371009AE3FF /* Bouncer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bouncer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,7 +145,6 @@
 		D6EA9A8124AD2201000135E7 /* SMSFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSFilter.swift; sourceTree = "<group>"; };
 		D6EA9A8324AD2244000135E7 /* FilterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStore.swift; sourceTree = "<group>"; };
 		D6F0621024EC69F800F47BA2 /* FilterStoreFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStoreFileTests.swift; sourceTree = "<group>"; };
-		D6F14E8724E8A1780029A0DF /* ReviewMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewMiddleware.swift; sourceTree = "<group>"; };
 		D6FC672824E49B2B0083C9FA /* FilterListContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterListContainerView.swift; sourceTree = "<group>"; };
 		D6FC672D24E4ACCF0083C9FA /* FilterMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMiddleware.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,7 +161,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D63B545F24C75231005D4DAA /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +206,6 @@
 			children = (
 				D6CC124E24E47C3900388160 /* SettingsMiddleware.swift */,
 				D6FC672D24E4ACCF0083C9FA /* FilterMiddleware.swift */,
-				D6F14E8724E8A1780029A0DF /* ReviewMiddleware.swift */,
 			);
 			path = Middlewares;
 			sourceTree = "<group>";
@@ -249,23 +239,6 @@
 			path = SMSFilter;
 			sourceTree = "<group>";
 		};
-		D62B331924BAB15C002DFB81 /* ReviewService */ = {
-			isa = PBXGroup;
-			children = (
-				D62B331A24BAB16C002DFB81 /* ReviewService.swift */,
-				D62B331C24BAB18E002DFB81 /* RatingServiceDefault.swift */,
-			);
-			path = ReviewService;
-			sourceTree = "<group>";
-		};
-		D63B545D24C75231005D4DAA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D63B545E24C75231005D4DAA /* StoreKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D64EB7D524CB393700FC6037 /* FilterDetail */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,7 +256,6 @@
 				D6529F8E24A41372009AE3FF /* BouncerUITests */,
 				D6233A7024A650B700B37A6A /* SMSFilter */,
 				D6529F7024A41371009AE3FF /* Products */,
-				D63B545D24C75231005D4DAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -388,7 +360,6 @@
 			children = (
 				D6B2CC8524EED357004F72C4 /* Mocks */,
 				D67F582B24E4495700165365 /* AppSettings */,
-				D62B331924BAB15C002DFB81 /* ReviewService */,
 				D6233A7B24A6519200B37A6A /* SMSFilter */,
 				D6529FC624A54AC7009AE3FF /* FilterStore */,
 				D60A19C624A69F1F0002E8BD /* SMSMessage.swift */,
@@ -685,7 +656,6 @@
 				D6529FCB24A54ADE009AE3FF /* FilterStoreFile.swift in Sources */,
 				D644F1EE24E59FC9006C5EE2 /* FilterDetailView.swift in Sources */,
 				D6EA9A8424AD2244000135E7 /* FilterStore.swift in Sources */,
-				D6F14E8824E8A1780029A0DF /* ReviewMiddleware.swift in Sources */,
 				D67F582E24E4496300165365 /* AppSettingsDefaults.swift in Sources */,
 				D6CC124F24E47C3900388160 /* SettingsMiddleware.swift in Sources */,
 				D6C90BF224CAAF7B00426B31 /* AppState.swift in Sources */,
@@ -694,7 +664,6 @@
 				D644F1EC24E59FBE006C5EE2 /* FilterDetailContainerView.swift in Sources */,
 				D6529FA424A413EB009AE3FF /* BackgroundView.swift in Sources */,
 				D6FC672E24E4ACCF0083C9FA /* FilterMiddleware.swift in Sources */,
-				D62B331B24BAB16C002DFB81 /* ReviewService.swift in Sources */,
 				D679D67424AA758C00579223 /* Constants.swift in Sources */,
 				D61497EC24E4433800AF997E /* FilterReducer.swift in Sources */,
 				D6529F7324A41371009AE3FF /* BouncerApp.swift in Sources */,
@@ -704,7 +673,6 @@
 				09491AEF261D30A400CF8073 /* String+Empty.swift in Sources */,
 				D67F582F24E4496300165365 /* AppSettingsStore.swift in Sources */,
 				D615898A24A55FF800FE710A /* BaseView.swift in Sources */,
-				D62B331D24BAB18E002DFB81 /* RatingServiceDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,7 +733,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SMSFilter/SMSFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				INFOPLIST_FILE = SMSFilter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -773,7 +741,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.bouncer.smsfilter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.bouncer.smsfilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -787,7 +755,7 @@
 				CODE_SIGN_ENTITLEMENTS = SMSFilter/SMSFilter.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				INFOPLIST_FILE = SMSFilter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -795,7 +763,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.bouncer.smsfilter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.bouncer.smsfilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -856,7 +824,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -912,7 +880,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -933,16 +901,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 135;
 				DEVELOPMENT_ASSET_PATHS = "\"Bouncer/Preview Content\"";
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bouncer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.bouncer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.bouncer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -961,16 +929,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 135;
 				DEVELOPMENT_ASSET_PATHS = "\"Bouncer/Preview Content\"";
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bouncer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.2.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.bouncer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.bouncer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -984,7 +952,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				INFOPLIST_FILE = BouncerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -992,7 +960,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.BouncerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.BouncerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1006,7 +974,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				INFOPLIST_FILE = BouncerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1014,7 +982,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.BouncerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.BouncerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1028,14 +996,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				INFOPLIST_FILE = BouncerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.BouncerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.BouncerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1050,14 +1018,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JM9222EF99;
+				DEVELOPMENT_TEAM = 54Y95XSR79;
 				INFOPLIST_FILE = BouncerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.banshai.BouncerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionark.BouncerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
